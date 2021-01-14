@@ -23,7 +23,7 @@ pipeline {
         }
         stage("3-y step") {
             steps {
-                sh 'ssh root@ub1 \'cat /etc/lsb-release \''
+                sh 'ssh root@ub1 \'ifconfig \''
             }
         }
     }
